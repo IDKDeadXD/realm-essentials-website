@@ -13,15 +13,15 @@ const config = {
   favicon: 'https://i.imgur.com/9qmrYKK.jpg',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://endiliey.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/realm-essentials-website/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'IDKDead', // Usually your GitHub org/user name.
-  projectName: 'IDK-Realm-Essentials', // Usually your repo name.
+  organizationName: 'idkdeadxd.github.io', // Usually your GitHub org/user name.
+  projectName: 'realm-essentials-website', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
