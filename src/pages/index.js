@@ -83,11 +83,14 @@ export default function Home() {
     <div className="card__body">
       <h4>Custom Commands</h4>
       <small>
+       
         there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
       </small>
     </div>
     <div className="card__footer">
-      <button className="button button--primary button--block">View Tutorial</button>
+    <a href="./docs/custom_commands">
+      <button className="button button--primary button--block">View Documentation</button>
+      </a>
     </div>
   </div>
   <div className="card feature-card">
@@ -98,7 +101,9 @@ export default function Home() {
       </small>
     </div>
     <div className="card__footer">
-      <button className="button button--primary button--block">Visit Docs</button>
+      <a href="./docs/">
+      <button className="button button--primary button--block">View Documentation</button>
+      </a>
     </div>
   </div>
 

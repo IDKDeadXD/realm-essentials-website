@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import sidebars from './sidebars';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -33,7 +34,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  
   presets: [
     [
       'classic',
@@ -41,15 +42,17 @@ const config = {
 
       
       ({
+
         docs: {
           sidebarPath: './sidebars.js',
+          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         //  editUrl:
           //  'nuh uh',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
          // editUrl:
@@ -58,6 +61,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+      
       }),
     ],
   ],
@@ -94,13 +98,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            label: 'Information',
-            to: '/not-finished-message',
-            position: 'left'
-          },
-         
+          {to: '/blog', label: 'Announcements', position: 'left'},
         ],
       },
      

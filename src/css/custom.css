@@ -186,7 +186,7 @@
 }
 .hero {
   background: var(--background-900);
-  background-image: url(https://static.planetminecraft.com/files/image/minecraft/data-pack/2020/372/13635969-pack_l.webp);
+  background-image: url(https://i.imgur.com/zhodxHL.jpg);
   background-size: cover;
   position: relative;
   /* border-radius: 10px; */
@@ -206,7 +206,7 @@
   left: 0px;
   right: 0px;
   width: 100%;
-  height: 50%;
+  height: 55%;
   content: "";
 }
 
