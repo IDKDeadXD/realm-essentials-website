@@ -79,25 +79,21 @@ export default function Home() {
           gap: '10px',
           margin: '10px'
         }} className='mobile-card-list'>
-    <div className="card__footer">
-    <a href="./blog">
-      <button className="button button--primary button--block">Announcements!</button>
-      </a>
-    </div>
-  </div>
-  <div className="card feature-card">
+          <div className="card feature-card">
     <div className="card__body">
-      <h4>Announcements!</h4>
+      <h4>Uh Oh!</h4>
       <small>
-      Our Website is not finished yet, once our add-on is finished we will allow full access to the website, but until then please visit the announcements page to get updates!
+Our Website Is Not Finished Yet!
+Take A Look At Our Announcements Page For Updates
       </small>
     </div>
     <div className="card__footer">
-      <a href="./blog">
+    <a href="./blog">
       <button className="button button--primary button--block">Visit Announcements</button>
       </a>
     </div>
   </div>
+
 
   </div>
        
@@ -109,3 +105,4 @@ export default function Home() {
     </Layout>
   );
 }
+
