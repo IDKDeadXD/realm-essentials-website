@@ -79,14 +79,6 @@ export default function Home() {
           gap: '10px',
           margin: '10px'
         }} className='mobile-card-list'>
-    //      <div className="card feature-card">
-   // <div className="card__body">
-    //  <h4>Custom Commands</h4>
-   //   <small>
-    
-        // there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
-      //</small>
-   // </div>
     <div className="card__footer">
     <a href="./blog">
       <button className="button button--primary button--block">Announcements!</button>
