@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <Layout
  
-      description="Description will go into a meta tag in <head />">
+      description="The Best Website Known To Man :D">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}
