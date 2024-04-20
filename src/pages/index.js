@@ -83,8 +83,8 @@ export default function Home() {
    // <div className="card__body">
     //  <h4>Custom Commands</h4>
    //   <small>
-      // 
-        //there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
+    
+        // there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
       //</small>
    // </div>
     <div className="card__footer">
@@ -95,7 +95,7 @@ export default function Home() {
   </div>
   <div className="card feature-card">
     <div className="card__body">
-      <h4>Wanted System</h4>
+      <h4>Announcements!</h4>
       <small>
       Our Website is not finished yet, once our add-on is finished we will allow full access to the website, but until then please visit the announcements page to get updates!
       </small>
