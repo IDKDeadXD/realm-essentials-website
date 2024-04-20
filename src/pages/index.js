@@ -79,17 +79,17 @@ export default function Home() {
           gap: '10px',
           margin: '10px'
         }} className='mobile-card-list'>
-          <div className="card feature-card">
-    <div className="card__body">
-      <h4>Custom Commands</h4>
-      <small>
-       
-        there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
-      </small>
-    </div>
+    //      <div className="card feature-card">
+   // <div className="card__body">
+    //  <h4>Custom Commands</h4>
+   //   <small>
+      // 
+        //there is alot of custom commands in this add-on, so i recommend you take a look at out docs!
+      //</small>
+   // </div>
     <div className="card__footer">
-    <a href="./docs/custom_commands">
-      <button className="button button--primary button--block">View Documentation</button>
+    <a href="./blog">
+      <button className="button button--primary button--block">Announcements!</button>
       </a>
     </div>
   </div>
@@ -97,12 +97,12 @@ export default function Home() {
     <div className="card__body">
       <h4>Wanted System</h4>
       <small>
-       Our add-on has a custom wanted System, there is alot of customization to it!
+      Our Website is not finished yet, once our add-on is finished we will allow full access to the website, but until then please visit the announcements page to get updates!
       </small>
     </div>
     <div className="card__footer">
-      <a href="./docs/">
-      <button className="button button--primary button--block">View Documentation</button>
+      <a href="./blog">
+      <button className="button button--primary button--block">Visit Announcements</button>
       </a>
     </div>
   </div>
