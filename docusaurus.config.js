@@ -92,12 +92,12 @@ const config = {
           src: 'https://i.imgur.com/9qmrYKK.jpg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentation',
-          },
+        //  {
+        //    type: 'docSidebar',
+     //       sidebarId: 'tutorialSidebar',
+      //      position: 'left',
+        //    label: 'Documentation',
+       //   },
           {to: '/blog', label: 'Announcements', position: 'left'},
         ],
       },
