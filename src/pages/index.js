@@ -56,10 +56,8 @@ export default function Home() {
 
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
- 
-    
-      <HomepageHeader />
+    <Layout>
+
       <main>
         {/* <HomepageFeatures /> */}
       </main>
@@ -105,4 +103,3 @@ Take A Look At Our Announcements Page For Updates
     </Layout>
   );
 }
-
